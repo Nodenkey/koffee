@@ -11,6 +11,8 @@ const MainReview = () => {
         margin: 100,
         items: 1,
         autoplay: true,
+        mouseDrag: false,
+        touchDrag: false,
         autoplayTimeout: 15000,
         dots: false,
     };

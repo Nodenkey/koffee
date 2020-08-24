@@ -9,10 +9,10 @@ export const BenefitsWrapper = styled.section`
 export const BenefitsContainer = styled(Container)`
   display: grid;
   margin-top: 50px;
-  grid-template-columns: repeat( auto-fill, minmax(100px, 200px));
+  justify-content: center;
+  grid-template-columns: repeat( auto-fit, minmax(100px, 200px));
   grid-template-rows: auto;
   grid-gap: 50px 100px;
-  justify-content: center;
   svg{
   width: 50px;
   height: 50px;

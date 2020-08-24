@@ -9,7 +9,7 @@ const Carousel = () => {
 
     const data = useStaticQuery(graphql`
   query ClientQuery {
-  images: allFile(filter: {relativeDirectory: {eq: "review"}}) {
+  images: allFile(filter: {relativeDirectory: {eq: "review"}}, sort: {fields:[name], order: ASC}) {
     nodes {
       id
       childImageSharp {
@@ -27,6 +27,8 @@ const Carousel = () => {
         margin: 100,
         items: 4,
         autoplay: true,
+        mouseDrag: false,
+        touchDrag: false,
         autoplayTimeout: 15000,
         dots: false,
         responsive: {

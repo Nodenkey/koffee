@@ -8,7 +8,7 @@ export const VarietyWrapper = styled.section`
 
 export const VarietyContainer = styled.div`
   display: grid;
-  grid-template-columns: repeat( auto-fill, 350px );
+  grid-template-columns: repeat( auto-fit, 350px );
   grid-template-rows: auto;
   grid-gap: 100px 50px;
   justify-content: center;
