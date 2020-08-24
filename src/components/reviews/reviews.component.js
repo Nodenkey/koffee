@@ -19,11 +19,9 @@ const Review = () => {
         const allNext = document.querySelectorAll('.owl-next');
 
         mainPrev.addEventListener('click', () => {
-            console.log('prev');
             allPrev.forEach(el => el.click());
         });
         mainNext.addEventListener('click', () => {
-            console.log('next');
             allNext.forEach(el => el.click());
         })
     })

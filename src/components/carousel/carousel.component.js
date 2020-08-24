@@ -56,7 +56,7 @@ const Carousel = () => {
                     }
                 </OwlCarousel>
             </ImageCarousel>
-            : <></>
+            : null
     );
 };
 

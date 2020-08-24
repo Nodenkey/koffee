@@ -28,7 +28,7 @@ const MainReview = () => {
                                 </Container>
                             )
                         }
-                    </OwlCarousel> : <></>
+                    </OwlCarousel> : null
             }
         </MainReviewWrapper>
 
