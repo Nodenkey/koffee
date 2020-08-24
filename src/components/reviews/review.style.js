@@ -11,12 +11,12 @@ export const ReviewWrapper = styled.section`
   h3{
   display: inline-block;
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 5vw;
   color: ${coffee};
   max-width: 400px;
   @media only screen and (min-width: 600px){
-    top: 19%;
+    top: 9%;
     left: auto;
     right: 5vw;
   }
