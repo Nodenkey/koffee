@@ -17,5 +17,5 @@ export const MainReviewWrapper = styled.div`
 `;
 
 export const ReviewContent = styled(Paragraph)`
-  margin-top: 50px;
+  margin-top: 30px;
 `;

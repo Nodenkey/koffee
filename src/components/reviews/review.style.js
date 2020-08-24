@@ -11,7 +11,7 @@ export const ReviewWrapper = styled.section`
   h3{
   display: inline-block;
   position: absolute;
-  top: 10%;
+  top: 0%;
   left: 5vw;
   color: ${coffee};
   max-width: 400px;
@@ -42,7 +42,8 @@ export const ControlContainers = styled.div`
   display: flex;
   width: 150px;
   position: absolute;
-  bottom: 0;
+  z-index: 3;
+  bottom: -25px;
   left: 5vw;
   justify-content: space-between;
   @media only screen and (min-width: 600px){

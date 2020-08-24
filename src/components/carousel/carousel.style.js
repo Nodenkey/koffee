@@ -17,7 +17,7 @@ export const ImageCarousel = styled.div`
   }
   @media only screen and (min-width: 600px){
   .gatsby-image-wrapper{
-  height: 80vh;
+  height: 90vh;
   }
   }
   }

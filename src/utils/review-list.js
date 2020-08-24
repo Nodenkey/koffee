@@ -21,7 +21,7 @@ export const reviewList = [
         key: '0000003',
         name: 'Sara Lee',
         occupation: 'Broker',
-        review: 'They have a superb shop. I always have a thrill whenever I go in. Reminds me of the series, Friends. A place where I can definitely forget my worries.'
+        review: 'They have a superb shop. I always have a thrill whenever I go in.'
     },
     {
         key: '0000005',
