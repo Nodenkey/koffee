@@ -19,8 +19,8 @@ const Footer = () => {
                 <Container>
                 <HeaderThree>You can reach me via mail or my social media handles</HeaderThree>
                     <SocialLink href='https://web.facebook.com/nii.o.abbey' rel='noopener' target='_blank'><FontAwesomeIcon icon={faFacebookF}/></SocialLink>
-                    <SocialLink href='https://twitter.com/nii_odenkey_' rel='noopener' target='_blank'><FontAwesomeIcon icon={faTwitter}/></SocialLink>
-                    <SocialLink href='https://www.instagram.com/n_odenkey/' rel='noopener' target='_blank'><FontAwesomeIcon icon={faInstagram}/></SocialLink>
+                    <SocialLink href='https://twitter.com/nii_dis' rel='noopener' target='_blank'><FontAwesomeIcon icon={faTwitter}/></SocialLink>
+                    <SocialLink href='https://www.instagram.com/nii_dis/' rel='noopener' target='_blank'><FontAwesomeIcon icon={faInstagram}/></SocialLink>
                     <SocialLink href="mailto:nodenkey@gmail.com" rel='noopener' target='_blank'><FontAwesomeIcon icon={faEnvelope}/></SocialLink>
                 </Container>
                 <Container style={{marginTop: '5px'}}>

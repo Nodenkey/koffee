@@ -10,7 +10,7 @@ export const LandingWrapper = styled.main`
   grid-template-rows: auto;
   @media only screen and (min-width: 600px){
   height: 100vh;
-  grid-template-columns: 1fr 1fr .2fr;
+  grid-template-columns: 1fr 1.5fr .2fr;
   grid-template-rows: auto;
   grid-template-areas: 
   'sub image banner'
