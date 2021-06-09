@@ -9,12 +9,20 @@ export const LandingWrapper = styled.main`
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   @media only screen and (min-width: 600px){
-  height: 100vh;
+    padding: 30px 5vw 30px;
+    height: 100vh;
   grid-template-columns: 1fr 1.5fr .2fr;
   grid-template-rows: auto;
   grid-template-areas: 
   'sub image banner'
   ;
+  }
+  .gatsby-image-wrapper {
+    height: 90vh;
+    img {
+      height: 100% !important;
+      width: auto !important;
+    }
   }
 `;
 

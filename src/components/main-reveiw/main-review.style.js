@@ -18,4 +18,5 @@ export const MainReviewWrapper = styled.div`
 
 export const ReviewContent = styled(Paragraph)`
   margin-top: 30px;
+  max-width: 600px;
 `;
