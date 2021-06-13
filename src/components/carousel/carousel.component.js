@@ -24,7 +24,7 @@ const Carousel = () => {
 
     const options = {
         loop: true,
-        margin: 100,
+        margin: 50,
         items: 4,
         autoplay: true,
         mouseDrag: false,
@@ -38,9 +38,9 @@ const Carousel = () => {
                 margin: 10
             },
             768: {
-                items: 2.5,
+                items: 1.5,
             },
-            1000: {
+            1200: {
                 items: 2.5,
             },
         },

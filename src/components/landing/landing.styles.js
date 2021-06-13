@@ -8,7 +8,7 @@ export const LandingWrapper = styled.main`
   align-items: center;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 1200px) {
     padding: 30px 5vw 30px;
     height: 100vh;
     grid-template-columns: 1fr 1.5fr .2fr;
@@ -134,7 +134,7 @@ export const SubHeading = styled(Paragraph)`
 
 export const ImageContainer = styled.div`
   grid-area: image;
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 1200px) {
     .gatsby-image-wrapper {
       opacity: .15;
       top: -80px;
@@ -151,7 +151,7 @@ export const Banner = styled.div`
   height: fit-content;
   transform: rotate(90deg) translateY(-140%);
   align-self: center;
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 1200px) {
     display: inline-block;
   }
 `;

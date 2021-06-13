@@ -18,6 +18,7 @@ export const BeansWrapper = styled.section`
   }
    >.gatsby-image-wrapper{
   height: 400px;
+     min-height: 100%;
   }
   @media only screen and (min-width: 600px){
     padding: 100px 5vw;

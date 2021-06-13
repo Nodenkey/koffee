@@ -3,7 +3,10 @@ import {coffee, Container} from "../../utils/elements";
 
 
 export const BenefitsWrapper = styled.section`
-  padding: 100px 5vw 0;
+  padding: 50px 5vw 0;
+  @media only screen and (min-width: 600px) {
+    padding: 100px 5vw 0;
+  }
 `;
 
 export const BenefitsContainer = styled(Container)`
