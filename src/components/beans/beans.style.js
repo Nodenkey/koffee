@@ -5,7 +5,7 @@ import styled from "styled-components";
 export const BeansWrapper = styled.section`  
    height: auto;
   width: 100vw;
-  padding: 100px 5vw;
+  padding: 50px 5vw;
   display: grid;
   grid-template-columns: 1fr;
   grid-row: auto;
@@ -20,7 +20,8 @@ export const BeansWrapper = styled.section`
   height: 400px;
   }
   @media only screen and (min-width: 600px){
-   >.gatsby-image-wrapper{
+    padding: 100px 5vw;
+    >.gatsby-image-wrapper{
   height: 550px;
   }
   grid-template-columns: 1fr 1fr;

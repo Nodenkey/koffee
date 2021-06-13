@@ -8,17 +8,19 @@ export const LandingWrapper = styled.main`
   align-items: center;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  @media only screen and (min-width: 600px){
+  @media only screen and (min-width: 600px) {
     padding: 30px 5vw 30px;
     height: 100vh;
-  grid-template-columns: 1fr 1.5fr .2fr;
-  grid-template-rows: auto;
-  grid-template-areas: 
+    grid-template-columns: 1fr 1.5fr .2fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
   'sub image banner'
   ;
   }
+
   .gatsby-image-wrapper {
     height: 90vh;
+
     img {
       height: 100% !important;
       width: auto !important;
@@ -26,20 +28,24 @@ export const LandingWrapper = styled.main`
   }
 `;
 
-export const MenuButton  = styled.div`
+export const MenuButton = styled.div`
   margin-right: 5vw;
   height: fit-content;
-  >div:first-child {
-      transform: ${({ open }) => open ? 'rotate(46deg) translateY(15px)' : 'rotate(0) translateY(0)'};
-    }
-  >div:nth-child(2) {
-      opacity: ${({ open }) => open ? '0' : '1'};
-      transform: ${({ open }) => open ? 'translateX(20px)' : 'translateX(0)'};
-    }
-  >div:nth-child(3) {
-      transform: ${({ open }) => open ? 'rotate(-46deg) translateY(-14px)' : 'rotate(0)'};
-    }
-  @media only screen and (min-width: 600px){
+
+  > div:first-child {
+    transform: ${({open}) => open ? 'rotate(46deg) translateY(15px)' : 'rotate(0) translateY(0)'};
+  }
+
+  > div:nth-child(2) {
+    opacity: ${({open}) => open ? '0' : '1'};
+    transform: ${({open}) => open ? 'translateX(20px)' : 'translateX(0)'};
+  }
+
+  > div:nth-child(3) {
+    transform: ${({open}) => open ? 'rotate(-46deg) translateY(-14px)' : 'rotate(0)'};
+  }
+
+  @media only screen and (min-width: 600px) {
     display: none;
   }
 `
@@ -60,7 +66,8 @@ export const NavBar = styled.nav`
   padding: 30px 5vw;
   z-index: 10;
   transition: 500ms ease-in-out;
-   a{
+
+  a {
     text-decoration: none;
   }
 `;
@@ -85,15 +92,17 @@ export const Menu = styled.ul`
   flex-direction: column;
   transition: 500ms ease-in-out;
   transform: ${props => props.show ? 'translateY(80px)' : 'translateY(-200px)'};
-  a{
-  color: black;
+
+  a {
+    color: black;
   }
-  @media only screen and (min-width: 600px){
-  transform: none;
-  position: initial;
-  width: auto;
-  background-color: initial;
-  padding: 0;
+
+  @media only screen and (min-width: 600px) {
+    transform: none;
+    position: initial;
+    width: auto;
+    background-color: initial;
+    padding: 0;
   }
 `;
 
@@ -101,12 +110,14 @@ export const ListItem = styled.li`
   text-align: center;
   cursor: pointer;
   margin-bottom: 20px;
-  &:hover{
-  color: ${coffee};
+
+  &:hover {
+    color: ${coffee};
   }
-  @media only screen and (min-width: 600px){
+
+  @media only screen and (min-width: 600px) {
     text-align: right;
-}
+  }
 `;
 
 export const MainHeader = styled(HeaderTwo)`
@@ -123,10 +134,11 @@ export const SubHeading = styled(Paragraph)`
 
 export const ImageContainer = styled.div`
   grid-area: image;
-  @media only screen and (max-width: 600px){
-  .gatsby-image-wrapper {
-  opacity: .15;
-  }
+  @media only screen and (max-width: 600px) {
+    .gatsby-image-wrapper {
+      opacity: .15;
+      top: -80px;
+    }
   }
 `;
 
@@ -139,8 +151,8 @@ export const Banner = styled.div`
   height: fit-content;
   transform: rotate(90deg) translateY(-140%);
   align-self: center;
-  @media only screen and (min-width: 600px){
-  display: inline-block;
+  @media only screen and (min-width: 600px) {
+    display: inline-block;
   }
 `;
 

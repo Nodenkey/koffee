@@ -3,7 +3,7 @@ import {HeaderTwo} from "../../utils/elements";
 
 
 export const VarietyWrapper = styled.section`
-  padding: 100px 5vw 0;
+  padding: 50px 5vw 0;
 `;
 
 export const VarietyContainer = styled.div`

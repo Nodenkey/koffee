@@ -1,8 +1,9 @@
 import React from 'react';
-import {DepressoWrapper, SectionTitle} from "../depresso/depresso.style";
+import {SectionTitle} from "../depresso/depresso.style";
 import Img from "gatsby-image/index";
 import {Container, Paragraph} from "../../utils/elements";
 import {graphql, useStaticQuery} from "gatsby";
+import {ExperienceWrapper} from "./experience.style";
 
 const Experience = () => {
 
@@ -20,7 +21,7 @@ const Experience = () => {
    `)
 
     return (
-        <DepressoWrapper style={{paddingBottom: '100px'}}>
+        <ExperienceWrapper>
             <Img fluid={data.experience.childImageSharp.fluid}/>
             <Container>
                 <SectionTitle>Have the best coffee experience with us.</SectionTitle>
@@ -29,7 +30,7 @@ const Experience = () => {
                     gives. Just drop in anytime to have you day koffeed!
                 </Paragraph>
             </Container>
-        </DepressoWrapper>
+        </ExperienceWrapper>
     );
 };
 
